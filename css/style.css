@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Light.otf");
+}
+
+.imagem {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    font-family: "Poppins"
+}
+
+.description {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin: 5px;
+    border: solid 1px #000000;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.dot.active {
+    background-color: #92E3A9;
+    border: 0px;
+}
+
+.continue {
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 278px;
+    height: 30px;
+    padding: 5px;
+    background-color: #92E3A9;
+    line-height: 30px;
+    box-shadow: 0px 2.5px 10px #A1C3FC;
+}
+.skip {
+    display: block;
+    margin: 30px auto;
+    text-decoration: none;
+    color: #92E3A9;
+}
+
+@media (max-width: 300px) {
+    .description {
+        font-size: 18px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .imagem {
+        width: 70vw;
+    }
+
+    .dot {
+        width: 5px;
+        height: 5px;    
+    }
+
+    .continue {
+        font-size: 12px;
+        width: 200px;
+        height: 20px;
+        line-height:20px;      
+    }
+
+    .skip {
+        font-size: 13px;
+    }
+}
